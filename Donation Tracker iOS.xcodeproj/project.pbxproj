@@ -15,6 +15,9 @@
 		0CE5F5F221B4B2650077990C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE5F5F021B4B2650077990C /* LaunchScreen.storyboard */; };
 		0CE5F5FC21B4B3470077990C /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE5F5FB21B4B3470077990C /* Welcome.storyboard */; };
 		0CE5F5FE21B4B6420077990C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5F5FD21B4B6420077990C /* LoginController.swift */; };
+		0CE5F60321B4B9360077990C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5F60221B4B9360077990C /* User.swift */; };
+		0CE5F60521B4BA830077990C /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5F60421B4BA830077990C /* Role.swift */; };
+		0CE5F60721B4BBF60077990C /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5F60621B4BBF60077990C /* UserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		0CE5F5F321B4B2650077990C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CE5F5FB21B4B3470077990C /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
 		0CE5F5FD21B4B6420077990C /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		0CE5F60221B4B9360077990C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0CE5F60421B4BA830077990C /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		0CE5F60621B4BBF60077990C /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 		0CE5F5FF21B4B7C30077990C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0CE5F60221B4B9360077990C /* User.swift */,
+				0CE5F60421B4BA830077990C /* Role.swift */,
+				0CE5F60621B4BBF60077990C /* UserManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,7 +181,10 @@
 				0CE5F5EA21B4B2640077990C /* SecondViewController.swift in Sources */,
 				0CE5F5FE21B4B6420077990C /* LoginController.swift in Sources */,
 				0CE5F5E621B4B2640077990C /* AppDelegate.swift in Sources */,
+				0CE5F60321B4B9360077990C /* User.swift in Sources */,
+				0CE5F60721B4BBF60077990C /* UserManager.swift in Sources */,
 				0CE5F5E821B4B2640077990C /* FirstViewController.swift in Sources */,
+				0CE5F60521B4BA830077990C /* Role.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

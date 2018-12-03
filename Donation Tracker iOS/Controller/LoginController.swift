@@ -32,14 +32,19 @@ class LoginController: UIViewController {
     
     
     @IBAction func login(_ sender: Any) {
-        guard let user = email.text, let pass = password.text else {return};
-        if (user == "user" && pass == "pass") {
+        guard let e = email.text, let pass = password.text else {return};
+        if(UserManager.instance.login(email: e, password: pass)) {
             let storyboard = UIStoryboard(name: "Main", bundle: nil);
             let vc = storyboard.instantiateViewController(withIdentifier: "main") as! UITabBarController;
             self.present(vc, animated: true, completion: nil)
         } else {
             // display error
+            let alertController = UIAlertController(title: "Invalid Credentials", message:
+                "Incorrect Email and/or Password", preferredStyle: UIAlertController.Style.alert)
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.default,handler: nil))
+            
+            self.present(alertController, animated: true, completion: nil)
         }
     }
-    
 }
+
