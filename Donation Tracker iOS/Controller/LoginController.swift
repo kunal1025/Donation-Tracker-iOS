@@ -42,7 +42,6 @@ class LoginController: UIViewController {
             let alertController = UIAlertController(title: "Invalid Credentials", message:
                 "Incorrect Email and/or Password", preferredStyle: UIAlertController.Style.alert)
             alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.default,handler: nil))
-            
             self.present(alertController, animated: true, completion: nil)
         }
     }

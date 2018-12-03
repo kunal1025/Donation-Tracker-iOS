@@ -30,7 +30,7 @@ class UserManager {
     
     func addUser(email: String, user: User) -> Bool {
         let u = users[email];
-        if (u == nil) {
+        if (u != nil) {
             return false;
         }
         users[email] = user;
