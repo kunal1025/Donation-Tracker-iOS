@@ -50,10 +50,10 @@
             </objects>
             <point key="canvasLocation" x="2" y="160"/>
         </scene>
-        <!--View Controller-->
+        <!--Login Controller-->
         <scene sceneID="LPH-gE-hqy">
             <objects>
-                <viewController id="a2B-97-nPd" sceneMemberID="viewController">
+                <viewController id="a2B-97-nPd" customClass="LoginController" customModule="Donation_Tracker_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uby-GG-K8I">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,11 +83,18 @@
                                 <rect key="frame" x="168" y="476" width="38" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="login:" destination="a2B-97-nPd" eventType="touchUpInside" id="PkR-OV-azs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="deZ-kJ-kqS"/>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="djI-lq-VPd" id="7RK-9H-p8y"/>
+                        <outlet property="password" destination="mVG-Ua-LEu" id="l17-OS-0ge"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0bB-xK-IhD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
