@@ -60,17 +60,41 @@
 		0CE5F5E421B4B2640077990C /* Donation Tracker iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0CE5F60121B4B7DB0077990C /* Controller */,
+				0CE5F60021B4B7D10077990C /* View */,
+				0CE5F5FF21B4B7C30077990C /* Model */,
 				0CE5F5E521B4B2640077990C /* AppDelegate.swift */,
-				0CE5F5E721B4B2640077990C /* FirstViewController.swift */,
-				0CE5F5E921B4B2640077990C /* SecondViewController.swift */,
-				0CE5F5EB21B4B2640077990C /* Main.storyboard */,
 				0CE5F5EE21B4B2650077990C /* Assets.xcassets */,
-				0CE5F5F021B4B2650077990C /* LaunchScreen.storyboard */,
 				0CE5F5F321B4B2650077990C /* Info.plist */,
-				0CE5F5FB21B4B3470077990C /* Welcome.storyboard */,
-				0CE5F5FD21B4B6420077990C /* LoginController.swift */,
 			);
 			path = "Donation Tracker iOS";
+			sourceTree = "<group>";
+		};
+		0CE5F5FF21B4B7C30077990C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CE5F60021B4B7D10077990C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5F5EB21B4B2640077990C /* Main.storyboard */,
+				0CE5F5F021B4B2650077990C /* LaunchScreen.storyboard */,
+				0CE5F5FB21B4B3470077990C /* Welcome.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CE5F60121B4B7DB0077990C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5F5E721B4B2640077990C /* FirstViewController.swift */,
+				0CE5F5E921B4B2640077990C /* SecondViewController.swift */,
+				0CE5F5FD21B4B6420077990C /* LoginController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
